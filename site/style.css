@@ -1,9 +1,4 @@
-/*Limpar formatações padrão*/
-
-* {
-    margin: 0;
-    padding: 0;
-}
+/*Formatações*/
 
 body {
     font-size: 1em;
@@ -16,40 +11,54 @@ h1 {
     text-align: center;
 }
 
+.clear {
+    clear: both;
+}
+
 .titulos {
     margin-top: 100px;
-    width: 1903px;
     text-align: center;
     font-family: Segoe UI;
     font-size: 48px;
 }
 
-.clear {
-    clear: both;
+#subtitulo {
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 20px;
+    color: #999999;
+    font-family: Arial;
+}
+
+.subtexto {
+    color: #999999;
+    font-family: Arial;
 }
 
 .descricao {
     background-color: #FFF;
-    padding: 5px;
+    padding: 80px;
     width: 280px;
-    margin: 0px 0px 0px 260px;
+    margin: 0px px 0px 260px;
     float: left;
     text-align: center;
 }
 
-.descricao-servico-esquerda {
+.servicoesquerda {
     text-align: left;
-    margin: 170px 115px;
+    margin: 160px 85px;
     float: left;
     width: 400px;
-    margin-left: 260px;
+    margin-left: 20px;
 }
 
-.descricao-servico-direita {
+.servicodireita {
     text-align: right;
     float: right;
     margin-top: 170px;
-    margin-right: 260px;
+    margin-right: 20px;
 }
 
 .background-branco {
@@ -66,29 +75,13 @@ h1 {
     margin-bottom: 20px;
 }
 
-.subtexto {
-    color: #999999;
-    font-family: Calibri;
-}
-
 #principal {
-    width: 1903px;
     position: center;
     background-color: #FFF;
 }
 
 #homepage {
     text-align: center;
-}
-
-#subtitulo {
-    margin: 10px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    text-align: center;
-    font-size: 20px;
-    color: #999999;
-    font-family: Calibri;
 }
 
 #img-servicos {
@@ -99,9 +92,48 @@ h1 {
 }
 
 #subtitulo-servicos {
-    margin-top: 200px;
+    margin-top: 50px;
     color: #999999;
-    font-family: Calibri;
+    font-family: Arial;
     font-size: 28px;
     text-align: center;
+}
+
+#img-membros {
+    float: right;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.titulomov {
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 28px;
+}
+
+.descricaomov {
+    text-align: left;
+    margin: 70px 0px;
+    float: left;
+    font-size: 16px;
+    color: #999999;
+}
+
+.botao {
+    background: #3E194D;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: #A7FBD3;
+    margin-top: 50px;
+}
+
+.iconebotao {
+    color: #A7FBD3;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
